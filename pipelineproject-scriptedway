@@ -1,6 +1,7 @@
 node{
 def mavenhome=tool name:"maven3.8.6"
 try{
+slackNotification('STARTED')
 
 stage('checkoutcode'){
 git credentialsId: '266cb0dd-f560-456f-a5d6-b58684422b27', url: 'https://github.com/pm-ec/maven-web-application.git'

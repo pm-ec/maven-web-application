@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>madhulatha Releases Nexus Repository</name>
-	      <url>http://65.0.95.218:8081/repository/walmart-release/</url>
+	      <url>http://13.232.212.146:8081/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>madhulatha Snapshot Nexus Repository</name>
-	      <url>http://65.0.95.218:8081/repository/walmart-snapshot/</url>
+	      <url>http://13.232.212.146:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

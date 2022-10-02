@@ -33,7 +33,7 @@ git credentialsId: '266cb0dd-f560-456f-a5d6-b58684422b27', url: 'https://github.
 }
 }
 //This stage will make build
-
+/*
 stage('Executesonareport'){
   steps{
   sh "mvn clean sonar:sonar"
@@ -56,7 +56,7 @@ sh "scp -o  StrictHostKeyChecking=no target/maven-web-application.war ec2-user@1
 }
 }
 
-
+*/
 }//stages closing
 
 post {
